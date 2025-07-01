@@ -24,7 +24,7 @@
         justify-content: center;
     }
     #parent{
-        width: 50%;
+        width: 80%;
         height: 400px;
         background-color:#5bf5b7;
         position: absolute;
@@ -38,7 +38,7 @@
     
     #parent2{
         height: 400px;
-        width: 50vw;
+        width: 90vw;
         background-color: #cad4dd;
         border-radius: 10px;
         z-index: 6;
@@ -80,24 +80,38 @@
         margin-bottom: 130px;
     }
     #child3{
-        left: 135px;
-        width: 25%;
+        margin-left: 20%;
+        padding: 10px;
+        width: 50vw;
         height: 50px;
         background-color: #4caaff;
         position: absolute;
         border-radius: 10px;
     }
         #child3:hover{
-            background-color: #0071d7;
-        }
+           width: 35px; 
+           height: 20px;
+           color: transparent;
+           background-color:transparent;
+           transition: 0.5s;
+    }
+            
     #parent2:hover{
-       width: 150px;
-       height: 380px;
+       
+          
+        
+       width: 75px;
+       height: 140px;
        color:transparent;
        transition: 1.2s;
        z-index: 1;
     }
-</style>
+    #btnparent{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    </style>
 
 
 <body>
@@ -106,9 +120,11 @@
         <div id="parent2">
             <div id="child1" class="xyz"><h4>name:</h4>&nbsp;<input class="input" placeholder=""></div>
             <div id="child2" class="xyz"><h4>upi id:</h4>&nbsp;<input class="input" placeholder=""></div>
+            
             <div id="child3" class="xyz">GET MONEY!</div>
-        </div>
-    </div>
+            
+        </di>
+    </di>
     
 </body>
 </html>
